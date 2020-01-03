@@ -25,6 +25,7 @@ public class MaterialColors {
       MaterialColor.FOREST,
       MaterialColor.WINTERGREEN,
       MaterialColor.BURLAP,
+      MaterialColor.BLACK,
       MaterialColor.STEEL
   )));
 

@@ -27,7 +27,8 @@ public class ContactColors {
       MaterialColor.TEAL,
       MaterialColor.BURLAP,
       MaterialColor.TAUPE,
-      MaterialColor.ULTRAMARINE
+      MaterialColor.ULTRAMARINE,
+      MaterialColor.BLACK
   ));
 
   public static MaterialColor generateFor(@NonNull String name) {

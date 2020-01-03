@@ -44,6 +44,10 @@
     <color name="conversation_taupe_tint">#cfb5bb</color>
     <color name="conversation_taupe_shade">#6a4e54</color>
 
+    <color name="conversation_black">#181818</color>
+    <color name="conversation_black_tint">#2B2B2B</color>
+    <color name="conversation_black_shade">#000000</color>
+
     <color name="conversation_steel">#6b6b78</color>
     <color name="conversation_steel_tint">#bebec6</color>
     <color name="conversation_steel_shade">#5a5a63</color>

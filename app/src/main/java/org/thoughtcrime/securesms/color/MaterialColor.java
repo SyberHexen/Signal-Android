@@ -29,6 +29,7 @@ public enum MaterialColor {
   TAUPE      (R.color.conversation_taupe,       R.color.conversation_taupe_tint,       R.color.conversation_taupe_shade,       "blue_grey"),
   STEEL      (R.color.conversation_steel,       R.color.conversation_steel_tint,       R.color.conversation_steel_shade,       "grey"),
   ULTRAMARINE(R.color.conversation_ultramarine, R.color.conversation_ultramarine_tint, R.color.conversation_ultramarine_shade, "ultramarine"),
+  BLACK      (R.color.conversation_black,       R.color.conversation_black_tint,       R.color.conversation_black_shade,       "black"),
   GROUP      (R.color.conversation_group,       R.color.conversation_group_tint,       R.color.conversation_group_shade,       "blue");
 
   private static final Map<String, MaterialColor> COLOR_MATCHES = new HashMap<String, MaterialColor>() {{
@@ -52,6 +53,7 @@ public enum MaterialColor {
     put("blue_grey",   TAUPE);
     put("grey",        STEEL);
     put("ultramarine", ULTRAMARINE);
+    put("black",       BLACK);
     put("group_color", GROUP);
   }};
 
