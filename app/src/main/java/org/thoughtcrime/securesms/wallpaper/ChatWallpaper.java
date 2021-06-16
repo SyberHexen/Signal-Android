@@ -46,6 +46,7 @@ public interface ChatWallpaper extends Parcelable {
           SingleColorChatWallpaper.PINK,
           SingleColorChatWallpaper.EGGPLANT,
           SingleColorChatWallpaper.SILVER,
+          SingleColorChatWallpaper.BLACK,
           GradientChatWallpaper.SUNSET,
           GradientChatWallpaper.NOIR,
           GradientChatWallpaper.HEATMAP,

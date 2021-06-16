@@ -53,14 +53,13 @@ object ChatColorsPalette {
     val PLUM = ChatColors.forColor(ChatColors.Id.BuiltIn, 0xFFAA377A.toInt())
 
     @JvmField
-    val TAUPE = ChatColors.forColor(
-      ChatColors.Id.BuiltIn, 0xFF8F616A.toInt()
-    )
+    val TAUPE = ChatColors.forColor(ChatColors.Id.BuiltIn, 0xFF8F616A.toInt())
 
     @JvmField
-    val STEEL = ChatColors.forColor(
-      ChatColors.Id.BuiltIn, 0xFF71717F.toInt()
-    )
+    val STEEL = ChatColors.forColor(ChatColors.Id.BuiltIn, 0xFF71717F.toInt())
+
+    @JvmField
+    val BLACK = ChatColors.forColor(ChatColors.Id.BuiltIn, 0xFF000000.toInt())
 
     // endregion
 
@@ -131,10 +130,8 @@ object ChatColorsPalette {
       ChatColors.Id.BuiltIn,
       ChatColors.LinearGradient(
         180f,
-        intArrayOf(
-          0xFF6281D5.toInt(), 0xFF974460.toInt()
-        ),
-        floatArrayOf(0f, 1f)
+        intArrayOf(0xFF6281D5.toInt(), 0xFF974460.toInt()),
+          floatArrayOf(0f, 1f)
       )
     )
 
@@ -175,7 +172,8 @@ object ChatColorsPalette {
       VIOLET,
       PLUM,
       TAUPE,
-      STEEL
+      STEEL,
+      BLACK
     )
     val gradients =
       listOf(EMBER, MIDNIGHT, INFRARED, LAGOON, FLUORESCENT, BASIL, SUBLIME, SEA, TANGERINE)

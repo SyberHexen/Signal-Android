@@ -59,6 +59,7 @@ public enum AvatarColor {
   PLUM("plum", ChatColorsPalette.Bubbles.PLUM.asSingleColor()),
   TAUPE("taupe", ChatColorsPalette.Bubbles.TAUPE.asSingleColor()),
   STEEL("steel", ChatColorsPalette.Bubbles.STEEL.asSingleColor()),
+  BLACK("black", ChatColorsPalette.Bubbles.BLACK.asSingleColor()),
   ULTRAMARINE("ultramarine", ChatColorsPalette.Bubbles.ULTRAMARINE.asSingleColor()),
   UNKNOWN("unknown", ChatColorsPalette.Bubbles.STEEL.asSingleColor());
 
@@ -83,6 +84,7 @@ public enum AvatarColor {
     NAME_MAP.put("pink", PLUM);
     NAME_MAP.put("blue_grey", TAUPE);
     NAME_MAP.put("grey", STEEL);
+    NAME_MAP.put("black", BLACK);
     NAME_MAP.put("ultramarine", ULTRAMARINE);
   }
 

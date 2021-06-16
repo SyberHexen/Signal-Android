@@ -26,6 +26,7 @@ object ChatColorsMapper {
     put(MaterialColor.PLUM, ChatColorsPalette.Bubbles.PLUM)
     put(MaterialColor.TAUPE, ChatColorsPalette.Bubbles.TAUPE)
     put(MaterialColor.STEEL, ChatColorsPalette.Bubbles.STEEL)
+    put(MaterialColor.BLACK, ChatColorsPalette.Bubbles.BLACK)
     put(MaterialColor.ULTRAMARINE, ChatColorsPalette.Bubbles.ULTRAMARINE)
   }.build()
 
@@ -42,6 +43,7 @@ object ChatColorsMapper {
     put(SingleColorChatWallpaper.PINK, ChatColorsPalette.Bubbles.PLUM)
     put(SingleColorChatWallpaper.EGGPLANT, ChatColorsPalette.Bubbles.TAUPE)
     put(SingleColorChatWallpaper.SILVER, ChatColorsPalette.Bubbles.STEEL)
+    put(SingleColorChatWallpaper.BLACK, ChatColorsPalette.Bubbles.BLACK)
     put(GradientChatWallpaper.SUNSET, ChatColorsPalette.Bubbles.EMBER)
     put(GradientChatWallpaper.NOIR, ChatColorsPalette.Bubbles.MIDNIGHT)
     put(GradientChatWallpaper.HEATMAP, ChatColorsPalette.Bubbles.INFRARED)

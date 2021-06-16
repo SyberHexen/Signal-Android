@@ -39,7 +39,8 @@ public class ContactColorsLegacy {
       "light_green",
       "teal",
       "brown",
-      "blue_grey"
+      "blue_grey",
+      "black"
   };
 
 
