@@ -11,6 +11,7 @@ import java.util.Objects;
  * A serializable set of color constants that can be used for avatars.
  */
 public enum AvatarColor {
+  /**
   C000("C000", 0xFFD00B0B),
   C010("C010", 0xFFC72A0A),
   C020("C020", 0xFFB34209),
@@ -58,10 +59,10 @@ public enum AvatarColor {
   VIOLET("violet", ChatColorsPalette.Bubbles.VIOLET.asSingleColor()),
   PLUM("plum", ChatColorsPalette.Bubbles.PLUM.asSingleColor()),
   TAUPE("taupe", ChatColorsPalette.Bubbles.TAUPE.asSingleColor()),
-  STEEL("steel", ChatColorsPalette.Bubbles.STEEL.asSingleColor()),
+  STEEL("steel", ChatColorsPalette.Bubbles.STEEL.asSingleColor()), */
   BLACK("black", ChatColorsPalette.Bubbles.BLACK.asSingleColor()),
-  ULTRAMARINE("ultramarine", ChatColorsPalette.Bubbles.ULTRAMARINE.asSingleColor()),
-  UNKNOWN("unknown", ChatColorsPalette.Bubbles.STEEL.asSingleColor());
+  /**  ULTRAMARINE("ultramarine", ChatColorsPalette.Bubbles.ULTRAMARINE.asSingleColor()), */
+  UNKNOWN("unknown", ChatColorsPalette.Bubbles.BLACK.asSingleColor());
 
   /** Fast map of name to enum, while also giving us a location to map old colors to new ones. */
   private static final Map<String, AvatarColor> NAME_MAP = new HashMap<>();
@@ -69,7 +70,7 @@ public enum AvatarColor {
     for (AvatarColor color : AvatarColor.values()) {
       NAME_MAP.put(color.serialize(), color);
     }
-
+  /** 
     NAME_MAP.put("red", CRIMSON);
     NAME_MAP.put("orange", VERMILLION);
     NAME_MAP.put("deep_orange", VERMILLION);
@@ -84,12 +85,15 @@ public enum AvatarColor {
     NAME_MAP.put("pink", PLUM);
     NAME_MAP.put("blue_grey", TAUPE);
     NAME_MAP.put("grey", STEEL);
+ */
     NAME_MAP.put("black", BLACK);
-    NAME_MAP.put("ultramarine", ULTRAMARINE);
+  /**    NAME_MAP.put("ultramarine", ULTRAMARINE); */
   }
 
   /** Colors that can be assigned via {@link #random()}. */
   private static final AvatarColor[] RANDOM_OPTIONS = new AvatarColor[] {
+/** 
+ * Remove Random Colors
       C000,
       C010,
       C020,
@@ -126,6 +130,8 @@ public enum AvatarColor {
       C330,
       C340,
       C350,
+ */
+      BLACK,
   };
 
   private final String name;
@@ -150,6 +156,6 @@ public enum AvatarColor {
   }
 
   public static @NonNull AvatarColor deserialize(@NonNull String name) {
-    return Objects.requireNonNull(NAME_MAP.getOrDefault(name, C000));
+    return Objects.requireNonNull(NAME_MAP.getOrDefault(name, BLACK));
   }
 }

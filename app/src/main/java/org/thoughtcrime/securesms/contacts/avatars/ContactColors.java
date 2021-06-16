@@ -13,9 +13,11 @@ import java.util.List;
  */
 public class ContactColors {
 
-  public static final MaterialColor UNKNOWN_COLOR = MaterialColor.STEEL;
+  public static final MaterialColor UNKNOWN_COLOR = MaterialColor.BLACK;
 
   private static final List<MaterialColor> CONVERSATION_PALETTE = new ArrayList<>(Arrays.asList(
+/** 
+ * Remove Random Colors
       MaterialColor.PLUM,
       MaterialColor.CRIMSON,
       MaterialColor.VERMILLION,
@@ -27,7 +29,7 @@ public class ContactColors {
       MaterialColor.TEAL,
       MaterialColor.BURLAP,
       MaterialColor.TAUPE,
-      MaterialColor.ULTRAMARINE,
+      MaterialColor.ULTRAMARINE,*/
       MaterialColor.BLACK
   ));
 

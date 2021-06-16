@@ -223,5 +223,5 @@ object ChatColorsPalette {
   }
 
   @JvmField
-  val UNKNOWN_CONTACT = Bubbles.STEEL
+  val UNKNOWN_CONTACT = Bubbles.BLACK
 }
